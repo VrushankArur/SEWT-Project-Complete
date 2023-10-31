@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    background-image: url('C:\xampp\htdocs\projectECS\background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff; /* Text color */
+}
+
+.navbar {
+    background-color: #333; /* Navbar background color */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important; /* Navbar text color */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Container background color with transparency */
+    border-radius: 10px; /* Container border radius */
+    padding: 20px;
+}
+
+.form-control {
+    background-color: #eee; /* Search input background color */
+}
+
+.btn-outline-success {
+    color: #fff; /* Search button text color */
+    border-color: #fff; /* Search button border color */
+}
+
+/* Add more styles as needed */
+
+/* Optional: Add styling for the search results */
+#searchresult {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+/* Optional: Add styling for the paper display */
+/* You can customize these styles based on your design preferences */
+.paper {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+/* Optional: Add styling for the toggle buttons */
+.toggle-button {
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Add more styles as needed */
